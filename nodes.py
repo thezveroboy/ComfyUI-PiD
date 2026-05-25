@@ -21,7 +21,7 @@ class PiDLoadModel:
     RETURN_TYPES = ("PID_MODEL",)
     RETURN_NAMES = ("pid_model",)
     FUNCTION = "load_model"
-    CATEGORY = "z-image/PiD"
+    CATEGORY = "zveroboy/PiD"
 
     def load_model(self, model_name, inference_steps, cfg_scale, scale):
         if "No models found" in model_name:
